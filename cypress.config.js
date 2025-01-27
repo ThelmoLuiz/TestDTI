@@ -17,7 +17,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
-
+  experimentalSessionAndOrigin: true,
   component: {
     devServer: {
       framework: "next",

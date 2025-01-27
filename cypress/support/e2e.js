@@ -19,4 +19,5 @@ import "@badeball/cypress-cucumber-preprocessor";
 // Definir as funções para simular BDD
 globalThis.Dado = (descricao, acao) => it(`Dado ${descricao}`, acao);
 globalThis.Quando = (descricao, acao) => it(`Quando ${descricao}`, acao);
+globalThis.E = (descricao, acao) => it(`E ${descricao}`, acao);
 globalThis.Entao = (descricao, acao) => it(`Então ${descricao}`, acao);
