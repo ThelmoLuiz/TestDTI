@@ -6,7 +6,7 @@ module.exports = defineConfig({
   e2e: {
     baseUrl:"http://www.automationpractice.pl/index.php?controller=my-account",
     specPattern:
-      "C:Users\thelmo.junior_sankhyDesktopCypresscypresse2e\finances.spec.js",
+      "C:Users\DesktopCypresscypresse2e\finances.spec.js",
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
